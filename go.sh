@@ -1,4 +1,4 @@
-nohup xxxx &
+nohup socks -p8080 &
 
 function random_range {
     shuf -i $1-$2 -n1
